@@ -78,8 +78,7 @@ which determines the minimum number of coins required to make
 changes to a given amount in us currency.
 ```javascript
                              module.exports = function makeExchange(currency) {
-                                if(currency > 10000) return {error: "You are rich, my friend! We don't have 
-                             so much coins for exchange"};
+                                if(currency > 10000) return {error: "You are rich, my friend! We don't have so much coins for exchange"};
                                 if(currency <= 0) return {};
                                 var h = Math.floor(currency / 50);
                                 var currency = currency % 50;
@@ -100,3 +99,6 @@ changes to a given amount in us currency.
                                     
                             }
 ```
+## PERSONAL INFORMATION
+###### Email: betoshevgieniy@gmail.com
+###### Tel: +375297965686
