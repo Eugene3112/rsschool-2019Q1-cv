@@ -1,8 +1,8 @@
 # EUGENE BERTOSH
 ![My photo](/img/P7ecLMFydl8.jpg)
 ## About me
-I am 20 years old. I’m currently study at the Belarusian State University.
-My speciality is web programming and internet technologies and I am a part - time third - year student. 
+I am 20 years old. Iï¿½m currently study at the Belarusian State University.
+My speciality is web programming and internet technologies and I am a part - time third - year student.
 I can describe myself as an energetic, responsible, creative and highly - motivated person.
 My major strength is the ability to work under pressure. I can deal with difficult situations.
 ## PROFESSIONAL SKILLS
@@ -26,10 +26,10 @@ Programming languages:
 7. Pedantic
 ## CODE EXAMPLE
 #### Advanced zeros
-The get Errors Count function, which takes 
-any integer (1 <= number <= 10^7) as the first argument and any 
-integer base (2 <= base <= 256) as the second argument. 
-She needs to count the number of trailing zeros in the number, 
+The get Errors Count function, which takes
+any integer (1 <= number <= 10^7) as the first argument and any
+integer base (2 <= base <= 256) as the second argument.
+She needs to count the number of trailing zeros in the number,
 the factorial of a number in base system.
 ```javascript
 module.exports = function getZerosCount(number, base) {
@@ -73,8 +73,8 @@ module.exports = function getZerosCount(number, base) {
                                }
 ```
 #### Money Exchange
-The make Exchange method, 
-which determines the minimum number of coins required to make 
+The make Exchange method,
+which determines the minimum number of coins required to make
 changes to a given amount in us currency.
 ```javascript
                              module.exports = function makeExchange(currency) {
@@ -96,7 +96,7 @@ changes to a given amount in us currency.
                              if (n > 0) result["N"] = n;
                              if (p > 0) result["P"] = p;
                              return result;
-                                    
+
                             }
 ```
 ## PERSONAL INFORMATION

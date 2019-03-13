@@ -159,3 +159,11 @@ th{
 .code code{
     line-height: 1.5em;
 }
+footer{
+    height: 150px;
+    background-color: #4e4e4e;
+    padding: 1px;
+}
+footer p{
+    padding: 10px;
+}
