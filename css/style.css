@@ -2,11 +2,15 @@ body{
     width: 100%;
     margin: 0;
     padding: 0;
+    color: whitesmoke;
+    font-family: 'Lato',sans-serif;
+    font-weight: 300;
+    
 }
 header{
     margin-top: -17px;
     width: 100%;
-    min-height: 640px;
+    min-height: 670px;
     background-image: url('../img/bg2.png');
     background-repeat: no-repeat;
     background-position-x: 50%;
@@ -41,7 +45,7 @@ a:focus {
 	font-size: 14px;
 	font-weight: medium;
 }
-ul{
+nav ul{
 	list-style: none;
 	margin: 0;
 	padding: 0;
@@ -93,4 +97,65 @@ ul{
 .inf-me p{
     line-height: 2em;
     text-align: justify;
+}
+main{
+    height: 2425px;
+    background-color: #323232;
+    
+}
+.professional-skills{
+    width: 900px;
+    margin:0 auto;
+    margin-bottom: 90px;
+}
+.pr{
+    padding-top:40px;
+    margin:0 auto;
+    text-align: center;
+}
+table{
+    margin:0 auto;
+    border: 1px solid #4e4e4e;
+    border-collapse: collapse;
+    padding-left: 20px;
+}
+td{
+    width: 300px;
+    height: 70px;
+    border: 1px solid #4e4e4e;
+    padding-left: 20px;
+}
+th{
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: 14px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border: 1px solid #4e4e4e;
+}
+.personal-skills{
+    width: 1000px;
+    margin-bottom: 140px;
+}
+.personal-skills h2{
+    text-transform: uppercase;
+    margin:0 auto;
+    text-align: center;
+}
+.personal-skills ul{
+    margin-top: 50px;
+    font-size: 22px;
+}
+.personal-skills li{
+    padding: 10px;
+}
+.code h2{
+    text-transform: uppercase;
+    text-align: center;
+}
+.code p{
+    text-align: justify;
+}
+.code code{
+    line-height: 1.5em;
 }
